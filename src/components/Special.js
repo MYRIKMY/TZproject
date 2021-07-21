@@ -1,7 +1,9 @@
 import React from "react";
 import { View, Image, Text, StyleSheet } from "react-native";
-import { special } from "../base/base";
+
 import { LinearGradient } from 'expo-linear-gradient';
+
+import { special } from "../base/base";
 
 export const Special = () => {
   return (

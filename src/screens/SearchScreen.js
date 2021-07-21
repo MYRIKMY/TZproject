@@ -43,7 +43,7 @@ export const SearchScreen = ({ navigation }) => {
           favoritePageFunc={() => {navigation.navigate('FavoritesScreen')}}
           searchPageFunc={() => {navigation.navigate('SearchScreen')}}
           cartPageFunc={() => {navigation.navigate('CartScreen')}}
-        ></TabMenu>
+        />
       </View>
     )
   } else {
